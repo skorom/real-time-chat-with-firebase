@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace RealTimeChat
 {
-    using Newtonsoft.Json;
     class Message
     {
-        public string Author { get; set; }
+        public required string Author { get; set; }
 
-        public string Content { get; set; }
+        public required string Content { get; set; }
 
 
     }
